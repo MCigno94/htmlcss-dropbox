@@ -71,6 +71,11 @@ a {
     background-color: var(--bk_topps);
 }
 
+.debug .questions {
+    height: 500px;
+    background-color: var(--bk_topps);
+}
+
 .debug .team .row {
     height: 500px;
     background-color: var(--bk_topps);
@@ -98,16 +103,16 @@ a {
     background-color: #61082B;
 }
 
-.debug .container_small {
+/* .debug .container_small {
     padding: 1rem;
     background-color: #d16736;
-}
+} */
 
 .debug .container_small div[class*="col_"],
 .debug .team div[class*="col_"] {
     border: none;
     border: 3px solid black;
-    background-color: #F5F5F5;
+    background-color: #eec6c6;
 }
 
 .debug .subtitle_section {
@@ -115,14 +120,18 @@ a {
     background-color: var(--bk_channel);
 }
 
-.debug section {
-    background-color: #c5688d;
-    margin-bottom: 10rem;
-}
-
 .debug .plan {
     background-color: var(--bk_primary_btn);
     margin-bottom: 10rem;
+}
+
+.debug .questions {
+    margin-bottom: 10rem;
+}
+
+.debug footer {
+    height: 500px;
+    background-color: #0061FF;
 }
 
 
@@ -228,8 +237,8 @@ ul.check_blue li::before {
 
 /* Main */
 
-.site_main {
-    
+section {
+    margin-bottom: 10rem;
 }
 
 .bk_hero {
