@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+.debug {
+
+}
+
+/* Variables */
+
+:root {
+    --bk_hero: #B4D0E7;
+    --bk_primary_btn: #0061FF;
+    --font_lightgrey: #74838F;
+    --bk_lt_designit: #A2D39B;
+    --bk_big_designit: #F5F5F5;
+    --border_designit: 2px solid #D0E9CD;
+    --bk_asu: #61082B;
+    --bk_florida: #0093CE;
+    --bk_topps: #FF1C1C;
+    --bk_world: #D5001F;
+    --bk_lonely: #0D2481;
+    --bk_channel: #FFD830;
+}
+
+/* Utility */
+
+.container_big {
+    width: 1440px;
+}
+
+.container_small {
+    width: 1100px;
+}
+
+.col_20 {
+    
+}
+
+.col_33 {
+    width: 33.3%;
+}
+
+.col_50 {
+    width: 50%;
+}
+
+.col_100 {
+    width: 100%;
+}
+
+div[class*="col-"] {
+    float: left;
+}
+
+.row[class*="col-"]::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.btn {
+    padding: 1rem;
+    color: white;
+}
+
+.bk_primary_btn {
+    background-color: var(--bk_primary_btn);
+}
+
+.check_blue {
+    padding: 3rem;
+}
+  
+ul.check_blue li::before {
+    content: '✓ ';
+    color: var(--bk_primary_btn);
+}
+
+/* Header */
+
+/* .navbar {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+} */
+
+
+/* Main */
+
+
+
+/* Footer */
