@@ -17,7 +17,7 @@ a {
 /* Debug */
 
 .debug .col_15 {
-    height: 15%;    
+    height: 150px;    
 }
 
 .debug .col_20 {
@@ -32,6 +32,10 @@ a {
     height: 100%; 
 }
 
+.debug .col_35 {
+    height: 250px;
+}
+
 .debug .col_40 {
     height: 15%; 
 }
@@ -40,8 +44,12 @@ a {
     height: 100%; 
 }
 
+.debug .col_65 {
+    height: 250px;
+}
+
 .debug .col_100 {
-    height: 15%; 
+    height: 200px; 
 }
 
 .debug .row[class*="col_"] {
@@ -54,8 +62,27 @@ a {
 }
 
 .debug .partner .row {
-    height: 400px;
+    height: 600px;
     background-color: var(--bk_topps);
+}
+
+.debug .business .row {
+    height: 500px;
+    background-color: var(--bk_topps);
+}
+
+.debug .team .row {
+    height: 500px;
+    background-color: var(--bk_topps);
+}
+
+.debug .team .col_30 {
+    height: 300px;
+    background-color: #0061FF;
+}
+
+.debug .team .col_40 {
+    height: 300px;
 }
 
 .debug .navbar {
@@ -76,10 +103,21 @@ a {
     background-color: #d16736;
 }
 
-.debug .container_small div[class*="col_"] {
+.debug .container_small div[class*="col_"],
+.debug .team div[class*="col_"] {
     border: none;
     border: 3px solid black;
     background-color: #F5F5F5;
+}
+
+.debug .subtitle_section {
+    height: 150px;
+    background-color: var(--bk_channel);
+}
+
+.debug section {
+    background-color: #c5688d;
+    margin-bottom: 10rem;
 }
 
 .debug .plan {
@@ -87,15 +125,6 @@ a {
     margin-bottom: 10rem;
 }
 
-.debug .plan .subtitle_section {
-    height: 150px;
-    background-color: var(--bk_channel);
-}
-
-.debug .partner {
-    height: 400px;
-    background-color: #c5688d;
-}
 
 /* Variables */
 
@@ -116,18 +145,9 @@ a {
 
 /* Utility */
 
-.clearfix {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .container_big {
     width: 1440px;
-    position: absolute;
-    top: 10rem;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 0 auto;
 }
 
 .container_small {
@@ -136,7 +156,7 @@ a {
 }
 
 .col_15 {
-    width: 15%;    
+    width: 50%;    
 }
 
 .col_20 {
@@ -151,12 +171,20 @@ a {
     width: 33.3%;
 }
 
+.col_35 {
+    width: 35%;
+}
+
 .col_40 {
     width: 40%;
 }
 
 .col_50 {
     width: 50%;
+}
+
+.col_65 {
+    width: 65%;
 }
 
 .col_100 {
@@ -167,7 +195,8 @@ div[class*="col_"] {
     float: left;
 }
 
-.row[class*="col_"]::after {
+.container_small  section::after,
+.row::after {
     content: '';
     display: table;
     clear: both;
@@ -197,14 +226,11 @@ ul.check_blue li::before {
     width: 100%;
 }
 
-
 /* Main */
 
 .site_main {
-    position: relative;
+    
 }
-
-/* container_big */
 
 .bk_hero {
     width: 100%;
@@ -214,11 +240,12 @@ ul.check_blue li::before {
 .hero {
     height: 500px;
     background-color: #0061FF;
-    margin-bottom: 8rem;
+    margin: 0 -100%;
 }
 
-/* container_small */
-
-
+.team .subtitle_section {
+width: 70%;
+margin: 0 auto;
+}
 
 /* Footer */
