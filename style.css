@@ -16,9 +16,85 @@ a {
 
 /* Debug */
 
+.debug .col_15 {
+    height: 15%;    
+}
+
+.debug .col_20 {
+    height: 15%;     
+}
+
+.debug .col_30 {
+    height: 15%; 
+}
+
+.debug .col_33 {
+    height: 100%; 
+}
+
+.debug .col_40 {
+    height: 15%; 
+}
+
+.debug .col_50 {
+    height: 100%; 
+}
+
+.debug .col_100 {
+    height: 15%; 
+}
+
+.debug .row[class*="col_"] {
+    background-color: var(--bk_florida);
+}
+
+.debug .plan .row {
+    height: 1000px;
+    background-color: var(--bk_topps);
+}
+
+.debug .partner .row {
+    height: 400px;
+    background-color: var(--bk_topps);
+}
+
 .debug .navbar {
     height: 50px;
     background-color: red;
+}
+
+.debug .bk_hero {
+    height: 550px;
+}
+
+.debug .container_big {
+    background-color: #61082B;
+}
+
+.debug .container_small {
+    padding: 1rem;
+    background-color: #d16736;
+}
+
+.debug .container_small div[class*="col_"] {
+    border: none;
+    border: 3px solid black;
+    background-color: #F5F5F5;
+}
+
+.debug .plan {
+    background-color: var(--bk_primary_btn);
+    margin-bottom: 10rem;
+}
+
+.debug .plan .subtitle_section {
+    height: 150px;
+    background-color: var(--bk_channel);
+}
+
+.debug .partner {
+    height: 400px;
+    background-color: #c5688d;
 }
 
 /* Variables */
@@ -40,12 +116,23 @@ a {
 
 /* Utility */
 
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .container_big {
     width: 1440px;
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .container_small {
     width: 1100px;
+    margin: 0 auto;
 }
 
 .col_15 {
@@ -76,11 +163,11 @@ a {
     width: 100%;
 }
 
-div[class*="col-"] {
+div[class*="col_"] {
     float: left;
 }
 
-.row[class*="col-"]::after {
+.row[class*="col_"]::after {
     content: '';
     display: table;
     clear: both;
@@ -113,7 +200,24 @@ ul.check_blue li::before {
 
 /* Main */
 
-.hero
+.site_main {
+    position: relative;
+}
+
+/* container_big */
+
+.bk_hero {
+    width: 100%;
+    background-color: var(--bk_hero);
+}
+
+.hero {
+    height: 500px;
+    background-color: #0061FF;
+    margin-bottom: 8rem;
+}
+
+/* container_small */
 
 
 
