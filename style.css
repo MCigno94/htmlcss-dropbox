@@ -1,3 +1,5 @@
+/* Common */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +10,15 @@ ul {
     list-style: none;
 }
 
-/* a {
+a {
     text-decoration: none;
-} */
+}
 
-.debug {
+/* Debug */
 
+.debug .navbar {
+    height: 50px;
+    background-color: red;
 }
 
 /* Variables */
@@ -43,12 +48,24 @@ ul {
     width: 1100px;
 }
 
+.col_15 {
+    width: 15%;    
+}
+
 .col_20 {
-    
+    width: 20%;    
+}
+
+.col_30 {
+    width: 30%;
 }
 
 .col_33 {
     width: 33.3%;
+}
+
+.col_40 {
+    width: 40%;
 }
 
 .col_50 {
@@ -89,14 +106,14 @@ ul.check_blue li::before {
 
 /* Header */
 
-/* .navbar {
-    width: 500px;
-    height: 500px;
-    background-color: red;
-} */
+.navbar {
+    width: 100%;
+}
 
 
 /* Main */
+
+.hero
 
 
 
