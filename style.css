@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -12,6 +13,10 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* Debug */
@@ -155,8 +160,9 @@ a {
 
 .container_big {
     max-width: 90%;
-    width: 1162px;
+    width: 1170px;
     margin: 0 auto;
+    padding: 3.5rem 0;
 }
 
 .container_small {
@@ -275,8 +281,31 @@ section {
 }
 
 .hero {
-    height: 610px;
+    height: 635px;
     background-color: var(--bk_hero);
+}
+
+.title_hero {
+    font-size: 68px;
+}
+
+.text_hero {
+    width: 385px;
+    margin-top: 2rem;
+}
+
+.text_hero>div.btn {
+    margin-top: 1.5rem;
+}
+
+.text_hero>span {
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 0.55rem;
+}
+
+.hero img {
+    margin-top: 2rem;
 }
 
 .team .subtitle_section {
