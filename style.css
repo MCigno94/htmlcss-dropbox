@@ -636,9 +636,17 @@ color: var(--bk_primary_btn);
     border-bottom: 1px solid lightgrey;
 }
 
-.rows_questions li {
+.questions .bullet_point .row {
     padding: 2rem 0;
     border-bottom: 1px solid lightgrey;
+}
+
+.questions .text_bullet {
+    width: 95%;
+}
+
+.questions .icon_bullet {
+    width: 5%;
 }
 
 /* Footer */
