@@ -1,5 +1,9 @@
 /* Common */
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -393,6 +397,7 @@ section {
 .arrow_down {
     font-size: 35px;
     margin-top: 2rem;
+    color: black;
 }
 
 /* plan */
