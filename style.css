@@ -482,6 +482,10 @@ color: var(--bk_primary_btn);
     margin-top: 3rem;
 }
 
+.business img {
+    height: 230px;
+}
+
 .head_card .btn {
     width: 100%;
     margin: 3rem 0 1.5rem;
