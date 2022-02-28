@@ -112,11 +112,6 @@ img {
     background-color: #61082B;
 }
 
-/* .debug .container_small {
-    padding: 1rem;
-    background-color: #d16736;
-} */
-
 .debug .container_small div[class*="col_"],
 .debug .team div[class*="col_"] {
     border: 3px solid black;
@@ -231,6 +226,10 @@ img {
     float: left;
 }
 
+.fl_l {
+    float: left;
+}
+
 .row::after {
     content: '';
     display: table;
@@ -245,6 +244,14 @@ img {
 .hero .btn>a,
 .plan .btn>a {
     color: white;
+}
+
+.icon_bullet {
+    width: 10%;
+}
+
+.text_bullet {
+    width: 90%;
 }
 
 .btn_primary {
@@ -298,6 +305,12 @@ ul.check_blue li::before {
 
 .font_14px {
     font-size: 14px;
+}
+
+/* Utility link */
+
+.link {
+    text-decoration: revert;
 }
 
 /* Header */
@@ -395,15 +408,19 @@ section {
     margin-left: 1rem;
 }
 
-.plan .container {
+.plan .card {
     max-width: 90%;
     height: 950px;
     border: 1px solid black;
 }
 
-.business .container {
+.business .card {
     max-width: 95%;
     height: 450px;
+}
+
+.plan .body_card .row>div:first-child {
+    color: #0061FF;
 }
 
 .details_plan_45{
@@ -420,7 +437,7 @@ section {
     border: 1px solid black;
 }
 
-.details_plan {
+.details_card {
     width: 85%;
     margin: 1.75rem auto;
 }
@@ -430,34 +447,29 @@ section {
     margin: 1.75rem auto;
 }
 
-.title_plan {
+.title_card {
     text-align: center;
     padding: 0.6rem 0;
     border-bottom: 1px solid black;
 }
 
-.details_plan h3,
+.details_card h3,
 .details_plan_45 h3,
 .details_plan_100 h3 {
     font-size: 23px;
 }
 
-.price h4,
+.head_card h4,
 .enterprise h4 {
     margin: 1rem 0 0.25rem;
 }
 
-.price>span {
+.head_card>span {
     color: gray;
 }
 
-.bullet_point {
-    margin-top: 2rem;
-}
-
-.bullet_point div,
-.highlights li{
-    margin-top: 1.5rem;
+.plan .details_card .bullet_point div {
+    margin-top: 0.75rem;
 }
 
 .chek_mark {
@@ -470,7 +482,7 @@ color: var(--bk_primary_btn);
     margin-top: 3rem;
 }
 
-.price .btn {
+.head_card .btn {
     width: 100%;
     margin: 3rem 0 1.5rem;
     text-align: center;
@@ -493,7 +505,7 @@ color: var(--bk_primary_btn);
 color: var(--bk_primary_btn);
 }
 
-.highlights {
+.body_card {
     margin-top: 4.5rem;
 }
 
@@ -534,7 +546,7 @@ color: var(--bk_primary_btn);
     transform: translate(-50%, -50%);
 }
 
-.team .container>.row .col_15 {
+.team .card>.row .col_15 {
     height: 215px;
     position: relative;
 } 

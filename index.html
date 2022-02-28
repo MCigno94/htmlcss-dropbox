@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body class="">
@@ -75,9 +78,7 @@
 
                             <span>Annulla in qualsiasi momento</span>
 
-                            <div class="arrow_down">&#129139;</div>
-
-                            <!-- <i class="fa-solid fa-arrow-down"></i> -->
+                            <div class="arrow_down fas fa-arrow-down"></div>
 
                         </div>
 
@@ -112,183 +113,569 @@
                 <div class="row">
 
                     <div class="col_33">
-                        <div class="container m_r">
-                            <div class="title_plan"> <span id="user">&#128100;</span>Singolo</div>
-                            <div class="details_plan">
+                        <div class="card m_r">
 
-                                <div class="price">
+                            <div class="title_card">
+                                <i class="far fa-user"></i>  <!-- icona -->
+                                <span> Singolo </span>
+                            </div>
+                            <!-- /.title_card -->
+
+                            <div class="details_card">
+
+                                <div class="head_card">
+
                                     <h3>Professional</h3>
                                     <h4>19,99 €</h4>
                                     <span class="font_14px">/mese</span>
+
                                     <div class="bullet_point">
 
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            1 utente
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="far fa-user"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span> 1 utente</span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            3 TB di spazio di archiviazione
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="far fa-folder"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span> 3 TB di spazio di archiviazione</span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            Funzioni di produttività premium e condivisione file semplice e sicura
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="fas fa-pencil-alt"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span>
+                                                    Funzioni di produttività premium
+                                                    e condivisione file semplice e sicura
+                                                </span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
 
                                     </div>
+
                                     <div class="btn btn_primary">
                                         <a href="#">Prova gratis per 30 giorni</a>
                                     </div>
-                                    <div class="shop_now font_14px"> <span>oppure</span> <a href="#">acquista ora</a>
+
+                                    <div class="shop_now font_14px"> 
+                                        <span>oppure</span>
+                                        <a class="link" href="#">acquista ora</a>
                                     </div>
                                 </div>
-                                <!-- /.price -->
+                                <!-- /.head_card -->
 
-                                <div class="highlights">
+                                <div class="body_card">
                                     <h5 class="font_14px">Punti salienti del piano</h5>
-                                    <ul class="bullet_point font_14px">
-                                        <li><strong class="chek_mark point_design"> ✓ </strong> Invia file fino a 100GB
-                                            con Dropbox Tranfert</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Cartelle online su
-                                            dispositivi mobili</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Pulizia remota
-                                            dell'account</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Filigrana documento</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Assistenza prioritaria
-                                            via email e chat</li>
-                                    </ul>
+        
+                                        <div class="bullet_point font_14px">
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Invia file fino a 100GB
+                                                        con Dropbox Tranfert
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Cartelle online su
+                                                        dispositivi mobili
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Pulizia remota
+                                                        dell'account
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Filigrana documento
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Assistenza prioritaria
+                                                        via email e chat
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+    
+                                        </div>
+
                                 </div>
                                 <!-- /.highlights -->
 
                             </div>
-                            <!-- /.details_plan -->
+                            <!-- /.details_card -->
                         </div>
                     </div>
 
                     <div class="col_33">
-                        <div class="container m_c">
-                            <div class="title_plan"> <span id="user">&#128100;</span>Team</div>
-                            <div class="details_plan">
+                        <div class="card m_c">
 
-                                <div class="price">
+                            <div class="title_card">
+                                <i class="far fa-building"></i>  <!-- icona -->
+                                <span> Team </span>
+                            </div>
+                            <!-- /.title_card -->
+
+                            <div class="details_card">
+
+                                <div class="head_card">
+
                                     <h3>Standard</h3>
                                     <h4>19,99 €</h4>
-                                    <span class="font_14px">/uente/mese, a partire da 3 utenti</span>
+                                    <span class="font_14px">/ utente / mese, a partire da 3 utenti</span>
+
                                     <div class="bullet_point">
 
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            1 utente
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="far fa-user"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span> 1 utente</span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            3 TB di spazio di archiviazione
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="far fa-folder"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span> 3 TB di spazio di archiviazione</span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            Funzioni di produttività premium e condivisione file semplice e sicura
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="fas fa-pencil-alt"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span>
+                                                    Funzioni di produttività premium
+                                                    e condivisione file semplice e sicura
+                                                </span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
 
                                     </div>
+
                                     <div class="btn btn_primary">
                                         <a href="#">Prova gratis per 30 giorni</a>
                                     </div>
-                                    <div class="shop_now font_14px"> <span>oppure</span> <a href="#">acquista ora</a>
+
+                                    <div class="shop_now font_14px"> 
+                                        <span>oppure</span>
+                                        <a class="link" href="#">acquista ora</a>
                                     </div>
                                 </div>
-                                <!-- /.price -->
+                                <!-- /.head_card -->
 
-                                <div class="highlights">
+                                <div class="body_card">
                                     <h5 class="font_14px">Punti salienti del piano</h5>
-                                    <ul class="bullet_point font_14px">
-                                        <li><strong class="chek_mark point_design"> ✓ </strong> Invia file fino a 100GB
-                                            con Dropbox Tranfert</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Cartelle online su
-                                            dispositivi mobili</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Pulizia remota
-                                            dell'account</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Filigrana documento</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Assistenza prioritaria
-                                            via email e chat</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Assistenza prioritaria
-                                            via email e chat</li>
-                                    </ul>
+        
+                                        <div class="bullet_point font_14px">
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Invia file fino a 100GB
+                                                        con Dropbox Tranfert
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Cartelle online su
+                                                        dispositivi mobili
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Pulizia remota
+                                                        dell'account
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Filigrana documento
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Assistenza prioritaria
+                                                        via email e chat
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Assistenza prioritaria
+                                                        via email e chat
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+    
+                                        </div>
+
                                 </div>
                                 <!-- /.highlights -->
 
                             </div>
-                            <!-- /.details_plan -->
+                            <!-- /.details_card -->
                         </div>
                     </div>
 
                     <div class="col_33">
-                        <div class="container m_l">
-                            <div class="title_plan"> <span id="user">&#128100;</span>Team</div>
-                            <div class="details_plan">
+                        <div class="card m_l">
 
-                                <div class="price">
+                            <div class="title_card">
+                                <i class="far fa-building"></i>  <!-- icona -->
+                                <span> Team </span>
+                            </div>
+                            <!-- /.title_card -->
+
+                            <div class="details_card">
+
+                                <div class="head_card">
+
                                     <h3>Advanced</h3>
                                     <h4>19,99 €</h4>
-                                    <span class="font_14px">/uente/mese, a partire da 3 utenti</span>
+                                    <span class="font_14px">/ utente / mese, a partire da 3 utenti</span>
+
                                     <div class="bullet_point">
 
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            1 utente
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="far fa-user"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span> 1 utente</span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            3 TB di spazio di archiviazione
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="far fa-folder"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span> 3 TB di spazio di archiviazione</span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
-                                        <div class="font_14px">
-                                            <span>&#128100;</span>
-                                            Funzioni di produttività premium e condivisione file semplice e sicura
-                                            <!-- <--- Testo -->
+                                        <div class="row">
+
+                                            <div class="icon_bullet fl_l">
+                                                <i class="fas fa-pencil-alt"></i>
+                                            </div>
+                                            <!-- <--- /.icon_bullet -->
+
+                                            <div class="text_bullet font_14px fl_l">
+                                                <span>
+                                                    Funzioni di produttività premium
+                                                    e condivisione file semplice e sicura
+                                                </span>
+                                            </div>
+                                            <!-- <--- /.text_bullet -->
+
                                         </div>
 
                                     </div>
+
                                     <div class="btn btn_primary">
                                         <a href="#">Prova gratis per 30 giorni</a>
                                     </div>
-                                    <div class="shop_now font_14px"> <span>oppure</span> <a href="#">acquista ora</a>
+
+                                    <div class="shop_now font_14px"> 
+                                        <span>oppure</span>
+                                        <a class="link" href="#">acquista ora</a>
                                     </div>
                                 </div>
-                                <!-- /.price -->
+                                <!-- /.head_card -->
 
-                                <div class="highlights">
+                                <div class="body_card">
                                     <h5 class="font_14px">Punti salienti del piano</h5>
-                                    <ul class="bullet_point font_14px">
-                                        <li><strong class="chek_mark point_design"> ✓ </strong> Invia file fino a 100GB
-                                            con Dropbox Tranfert</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Cartelle online su
-                                            dispositivi mobili</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Pulizia remota
-                                            dell'account</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Filigrana documento</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Assistenza prioritaria
-                                            via email e chat</li>
-                                        <li><strong class="chek_mark point_design"> ✓ </strong>Assistenza prioritaria
-                                            via email e chat</li>
-                                    </ul>
+        
+                                        <div class="bullet_point font_14px">
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Invia file fino a 100GB
+                                                        con Dropbox Tranfert
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Cartelle online su
+                                                        dispositivi mobili
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Pulizia remota
+                                                        dell'account
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Filigrana documento
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Assistenza prioritaria
+                                                        via email e chat
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+
+                                            <div class="row">
+    
+                                                <div class="icon_bullet fl_l">
+                                                    <i class="fas fa-check"></i>
+                                                </div>
+                                                <!-- <--- /.icon_bullet -->
+    
+                                                <div class="text_bullet font_14px fl_l">
+                                                    <span>
+                                                        Assistenza prioritaria
+                                                        via email e chat
+                                                    </span>
+                                                </div>
+                                                <!-- <--- /.text_bullet -->
+    
+                                            </div>
+    
+                                        </div>
+
                                 </div>
                                 <!-- /.highlights -->
 
                             </div>
-                            <!-- /.details_plan -->
+                            <!-- /.details_card -->
                         </div>
                     </div>
 
                     <div class="col_100">
                         <div class="container_100">
-                            <div class="title_plan"> <span id="user">&#128100;</span>Team</div>
+
+                            <div class="title_card">
+                                <i class="far fa-user"></i>  <!-- icona -->
+                                <span> Team </span>
+                            </div>
+                            <!-- /.title_card -->
 
                             <div class="details_plan_100 ">
                                 <div class="row enterprise">
@@ -312,6 +699,7 @@
                             <!-- /.details_plan_100 -->
                         </div>
                     </div>
+
                 </div>
 
             </div>
@@ -586,7 +974,7 @@
                         </li>
                         <li>
                             <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, dolorem.</h4>
-                        </li>                        
+                        </li>
                     </ul>
                 </div>
 
@@ -605,18 +993,18 @@
             <div class="row">
 
                 <div class="col_20">
-                        <div class="subtitle_link">
-                            <h2>Dropbox</h2>
-                        </div>
-                        <div class="useful_links">
-                            <ul>
-                                <li>Applicaione desktop</li>
-                                <li>Pechè Dropbox</li>
-                                <li>Piani</li>
-                                <li>Sicurezza</li>
-                                <li>Funzioni</li>
-                            </ul>
-                        </div>
+                    <div class="subtitle_link">
+                        <h2>Dropbox</h2>
+                    </div>
+                    <div class="useful_links">
+                        <ul>
+                            <li>Applicaione desktop</li>
+                            <li>Pechè Dropbox</li>
+                            <li>Piani</li>
+                            <li>Sicurezza</li>
+                            <li>Funzioni</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="col_20">
