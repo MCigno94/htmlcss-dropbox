@@ -1,0 +1,67 @@
+#float_r {
+    height: 50px;
+    float: right;
+    font-size: 1.25rem;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding: 0.75rem 0;
+}
+
+body {
+height: 2500px;
+}
+
+.txt_r {
+    text-align: right;
+}
+
+.txt_c {
+    text-align: center;
+}
+
+#empty_line {
+    height: 50px;
+}
+
+#empty {
+    height: 250px;
+    border-top: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.price_plan{
+    margin-top: 5rem;
+}
+
+.price_plan .row {
+    height: 250px;
+}
+
+.price_plan .col_15 {
+    height: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    border: 1px solid lightgrey;
+}
+
+.price_plan .col_15 .col_100 h3 {
+    font-size: 1.5rem;
+}
+
+.p_l {
+    padding-left: 1rem;
+}
+
+.price_plan .col_100>div {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 1px solid lightgrey;
+}
+
+.price_plan .col_15 span {
+    display: block;
+    color: grey;
+    padding: 1.25rem 0;
+}
