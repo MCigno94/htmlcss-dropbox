@@ -23,7 +23,7 @@ img {
     max-width: 100%;
 }
 
-/* Debug */
+/*#region-debug*/
 
 .debug .col_15 {
     height: 150px;    
@@ -137,8 +137,9 @@ img {
     background-color: #0061FF;
 }
 
+/*#endregion*/
 
-/* Variables */
+/*#region-Variables */
 
 :root {
     --bk_hero: #B4D0E7;
@@ -155,7 +156,33 @@ img {
     --bk_channel: #FFD830;
 }
 
-/* Utility */
+/*#endregion*/
+
+/*#region-Utility */
+
+.m_c {
+    margin: 0 auto;
+} 
+
+.m_l {
+    margin-left: 10%;
+} 
+
+.m_r {
+    margin-right: 10%;
+} 
+
+.m_r0 {
+    margin-right: 0;
+} 
+
+.m_t {
+    margin-top: 1.25rem;
+}
+
+.m_b {
+    margin-bottom: 15rem;
+}
 
 .container_big {
     max-width: 90%;
@@ -168,6 +195,20 @@ img {
     width: 1000px;
     max-width: 70%;
     margin: 0 auto;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+[class*="col_"] {
+    float: left;
+}
+
+.fl_l {
+    float: left;
 }
 
 .col_15 {
@@ -222,44 +263,13 @@ img {
     width: 100%;
 }
 
-[class*="col_"] {
-    float: left;
-}
-
-.fl_l {
-    float: left;
-}
-
-.row::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .btn {
     padding: 0.5rem 1.25rem;
     display: inline-block;
 }
 
-.hero .btn>a,
-.plan .btn>a {
-    color: white;
-}
-
-.icon_bullet {
-    width: 10%;
-}
-
-.text_bullet {
-    width: 90%;
-}
-
 .btn_primary {
     background-color: var(--bk_primary_btn);
-}
-
-.check_blue {
-    padding: 3rem;
 }
 
 .btn_trasparent {
@@ -271,33 +281,25 @@ img {
 .btn_trasparent a {
     color: black;
 }
-  
-ul.check_blue li::before {
-    content: '✓ ';
-    color: var(--bk_primary_btn);
+
+.icon_bullet {
+    width: 10%;
 }
 
-.m_c {
-    margin: 0 auto;
-} 
-
-.m_l {
-    margin-left: 13%;
-} 
-
-.m_r {
-    margin-right: 13%;
-} 
-
-.m_t {
-    margin-top: 1.25rem;
+.text_bullet {
+    width: 90%;
 }
 
-.m_b {
-    margin-bottom: 15rem;
+
+.check_blue {
+    padding: 3rem;
 }
 
 /* Utility text */
+
+.f_white{
+    color: white;
+}
 
 .txt_dx {
     text-align: right;
@@ -312,6 +314,8 @@ ul.check_blue li::before {
 .link {
     text-decoration: revert;
 }
+
+/*#endregion-utility*/
 
 /* Header */
 
