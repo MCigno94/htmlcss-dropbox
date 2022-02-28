@@ -1,4 +1,4 @@
-/* Common */
+/*#region-common */
 
 html {
     scroll-behavior: smooth;
@@ -15,6 +15,10 @@ body {
     min-width: 1440px;
 }
 
+section {
+    margin: 8rem 0;
+}
+
 ul {
     list-style: none;
 }
@@ -26,6 +30,9 @@ a {
 img {
     max-width: 100%;
 }
+
+/*#endregion-common */
+
 
 /*#region-debug*/
 
@@ -307,6 +314,10 @@ img {
     font-size: 14px;
 }
 
+.txt_35px {
+    font-size: 35px;
+}
+
 /* Utility link */
 
 .link {
@@ -382,21 +393,18 @@ img {
 
 /* Main */
 
-section {
-    margin: 10rem 0;
-}
+/* #region-hero */
 
-/* hero */
+.hero {
+    height: 635px;
+    background-color: var(--bk_hero);
+}
 
 .bk_hero {
     width: 100%;
     background-color: var(--bk_hero);
 }
 
-.hero {
-    height: 635px;
-    background-color: var(--bk_hero);
-}
 
 .title_hero {
     font-size: 68px;
@@ -431,13 +439,10 @@ section {
     color: black;
 }
 
-/* plan */
+/* #endregion-hero */
 
-.plan h2,
-.business h2,
-.team h2 {
-    font-size: 35px;
-}
+
+/* #region-plan */
 
 .radio_button {
     padding: 3rem 0 2rem;
@@ -450,13 +455,8 @@ section {
 
 .plan .card {
     max-width: 90%;
-    height: 950px;
+    height: 900px;
     border: 1px solid black;
-}
-
-.business .card {
-    max-width: 95%;
-    height: 450px;
 }
 
 .plan .body_card .row>div:first-child {
@@ -516,10 +516,18 @@ section {
 color: var(--bk_primary_btn);
 }
 
-/* business */
+/* #endregion-plan */
+
+
+/*#region-business */
 
 .business .col_33 {
     margin-top: 3rem;
+}
+
+.business .card {
+    max-width: 95%;
+    height: 450px;
 }
 
 .business img {
@@ -562,7 +570,10 @@ color: var(--bk_primary_btn);
     margin-top: 1rem;
 }
 
-/* Team */
+/*#endregion-business */
+
+
+/*#region-Team */
 
 .team .subtitle_section>span {
     display: inline-block;
@@ -575,12 +586,7 @@ color: var(--bk_primary_btn);
     text-decoration: revert;
 }
 
-
-/* .row div:first-child li:first-child {
-    list-style-image: url('./img/user.png');
-} */
-
-.team .col_15 img {
+.team .col_50 img {
     width: 120px;
     height: auto;
     filter: invert(1);
@@ -590,7 +596,7 @@ color: var(--bk_primary_btn);
     transform: translate(-50%, -50%);
 }
 
-.team .card>.row .col_15 {
+.team .card>.row .col_50 {
     height: 215px;
     position: relative;
 } 
@@ -669,7 +675,10 @@ color: var(--bk_primary_btn);
     color: black;
 }
 
-/* rows_questions */
+/*#endregion-Team */
+
+
+/*#region-rows_questions */
 
 .subtitle_questions {
     padding-bottom: 3rem;
@@ -709,8 +718,9 @@ color: var(--bk_primary_btn);
 
 /*#endregion-accordian*/
 
+/*#endregion-rows_questions */
 
-/* Footer */
+/*#region-Footer */
 
 .site_footer {
     height: 450px;
@@ -735,3 +745,5 @@ color: var(--bk_primary_btn);
     margin-top: 4.5rem;
     padding-top: 2.5rem;
 }
+
+/*#endregion-Footer */
