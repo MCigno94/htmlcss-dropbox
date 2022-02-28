@@ -655,6 +655,7 @@ color: var(--bk_primary_btn);
     height: 450px;
     background-color: black;
     color: white;
+    padding-top: 2rem;
 }
 
 .subtitle_link {
@@ -663,4 +664,13 @@ color: var(--bk_primary_btn);
 
 .useful_links ul{
     line-height: 2rem;
+}
+
+.language{
+    width: 90px;
+    font-size: 10px;
+    color: gray;
+    border-top: 1px solid lightgray;
+    margin-top: 4.5rem;
+    padding-top: 2.5rem;
 }
