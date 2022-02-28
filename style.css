@@ -373,6 +373,11 @@ section {
     margin-top: 2rem;
 }
 
+.arrow_down {
+    font-size: 35px;
+    margin-top: 2rem;
+}
+
 /* plan */
 
 .plan h2,
@@ -383,6 +388,7 @@ section {
 
 .radio_button {
     padding: 3rem 0 2rem;
+    /* appearance:initial; */
 }
 
 .radio_button input:last-child {
