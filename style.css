@@ -711,7 +711,7 @@ color: var(--bk_primary_btn);
     margin-top: 2rem;
 }
 
-.accordian:hover p{
+.row:hover .accordian p{
     display:block;  
 }
 
